@@ -68,7 +68,7 @@ const dados = {
     },
     {
       "nome": "Levi Mateus",
-      "pontos": 2,
+      "pontos": 3,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 2x1 Canadá 🇨🇦", "status": "errou" },
         { "jogo": "🇧🇷 Brasil 3x1 Japão 🇯🇵", "status": "acertou-vencedor" },
@@ -134,7 +134,7 @@ const dados = {
     },
     {
       "nome": "Tobias",
-      "pontos": 3,
+      "pontos": 4,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 0x2 Canadá 🇨🇦", "status": "acertou-vencedor" },
         { "jogo": "🇧🇷 Brasil 3x0 Japão 🇯🇵", "status": "acertou-vencedor" },
