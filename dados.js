@@ -67,28 +67,6 @@ const dados = {
       ]
     },
     {
-      "nome": "Paulo Rosa",
-      "pontos": 4,
-      "palpites": [
-        { "jogo": "🇿🇦 África do Sul 1x2 Canadá 🇨🇦", "status": "vitoria-1pt" },
-        { "jogo": "🇧🇷 Brasil 3x1 Japão 🇯🇵", "status": "vitoria-1pt" },
-        { "jogo": "🇩🇪 Alemanha 2x0 Paraguai 🇵🇾", "status": "errou" },
-        { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
-        { "jogo": "🇨🇮 Costa do Marfim 2x3 Noruega 🇳🇴", "status": "vitoria-1pt" },
-        { "jogo": "🇫🇷 França 4x1 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 3x1 Equador 🇪🇨", "status": "pendente" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
-        { "jogo": "🇧🇪 Bélgica 2x2 Senegal 🇸🇳(P)", "status": "pendente" },
-        { "jogo": "🇺🇸 Estados Unidos 3x1 Bósnia 🇧🇦", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha 2x0 Áustria 🇦🇹", "status": "pendente" },
-        { "jogo": "(P)🇵🇹 Portugal 1x1 Croácia 🇭🇷", "status": "pendente" },
-        { "jogo": "🇨🇭 Suíça 1x0 Argélia 🇩🇿", "status": "pendente" },
-        { "jogo": "🇦🇺 Austrália 1x2 Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina 4x0 Cabo Verde 🇨🇻", "status": "pendente" },
-        { "jogo": "🇨🇴 Colômbia 3x2 Gana 🇬🇭", "status": "pendente" }
-      ]
-    },
-    {
       "nome": "Ed Junior",
       "pontos": 4,
       "palpites": [
