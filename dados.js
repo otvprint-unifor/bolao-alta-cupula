@@ -134,12 +134,12 @@ const dados = {
     },
     {
       "nome": "Tobias",
-      "pontos": 5,
+      "pontos": 3,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 0x2 Canadá 🇨🇦", "status": "acertou-vencedor" },
         { "jogo": "🇧🇷 Brasil 3x0 Japão 🇯🇵", "status": "acertou-vencedor" },
         { "jogo": "🇩🇪 Alemanha 2x0 Paraguai 🇵🇾", "status": "errou" },
-        { "jogo": "(P)🇳🇱 Holanda 1x1 Marrocos 🇲🇦", "status": "acertou-placar" },
+        { "jogo": "(P)🇳🇱 Holanda 1x1 Marrocos 🇲🇦", "status": "acertou-vencedor" },
         { "jogo": "🇨🇮 Costa do Marfim 2x3 Noruega 🇳🇴", "status": "pendente" },
         { "jogo": "🇫🇷 França 4x1 Suécia 🇸🇪", "status": "pendente" },
         { "jogo": "🇲🇽 México 3x1 Equador 🇪🇨", "status": "pendente" },
