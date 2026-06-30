@@ -68,12 +68,12 @@ const dados = {
     },
     {
       "nome": "Levi Mateus",
-      "pontos": 4,
+      "pontos": 2,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 2x1 Canadá 🇨🇦", "status": "errou" },
         { "jogo": "🇧🇷 Brasil 3x1 Japão 🇯🇵", "status": "acertou-vencedor" },
         { "jogo": "🇩🇪 Alemanha 4x1 Paraguai 🇵🇾", "status": "errou" },
-        { "jogo": "(P)🇳🇱 Holanda 1x1 Marrocos 🇲🇦", "status": "acertou-placar" },
+        { "jogo": "(P)🇳🇱 Holanda 1x1 Marrocos 🇲🇦", "status": "acertou-vencedor" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "pendente" },
         { "jogo": "🇫🇷 França 4x0 Suécia 🇸🇪", "status": "pendente" },
         { "jogo": "🇲🇽 México 1x2 Equador 🇪🇨", "status": "pendente" },
