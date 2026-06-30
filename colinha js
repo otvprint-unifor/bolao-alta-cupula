@@ -1,0 +1,13 @@
+"vitoria-3pts" (Acertou o Placar Exato)
+
+"vitoria-1pt" (Acertou o vencedor, mas errou os gols)
+
+"vitoria-suada-1pt" (Jogo foi pros pênaltis, mas o time que ele botou fé passou)
+
+"empate-3pts" (Acertou os gols e cravou quem passava nos pênaltis)
+
+"empate-2pts" (Acertou os gols, mas errou quem passava)
+
+"empate-1pt" (Deu empate, mas ele errou os gols)
+
+"errou" (Passou longe)
