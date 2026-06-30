@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolão Alta Cupula</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Paleta Futebol Premium */
+            --bg-body: #0a1f12; /* Fundo escuro esverdeado */
+            --bg-card: #ffffff;
+            --verde-grama: #059669; /* Verde campo */
+            --verde-escuro: #064e3b;
+            --ouro-copa: #fbbf24; /* Amarelo/Dourado taça */
+            --ouro-escuro: #d97706;
+            --texto-principal: #1f2937;
+            --texto-secundario: #4b5563;
+            --borda: #e5e7eb;
+            --hover-linha: #f0fdf4; /* Verde bem clarinho para hover */
+        }
+
+        body { 
+            font-family: 'Outfit', sans-serif; 
+            color: var(--texto-principal); 
+            padding: 30px 20px; 
+            margin: 0;
+            position: relative;
+            min-height: 100vh;
+            background-color: var(--bg-body);
+        }
+
+        /* Camada da Foto de Fundo Desfocada com Imagem de Estádio */
+        body::before {
+            content: "";
+            position: fixed; 
+            top: -15px; left: -15px; right: -15px; bottom: -15px; 
+            /* URL de um estádio genérico do Unsplash para dar o clima */
+            background-image: url('https://images.unsplash.com/photo-1518605368461-1ee7e55cebc2?q=80&w=2000&auto=format&fit=crop'); 
+            background-size: cover;
+            background-position: center;
+            filter: blur(10px) brightness(0.4); /* Desfoque e escurecimento para dar contraste */
+            z-index: -1; 
+        }
+
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background: rgba(255, 255, 255, 0.97); /* Leve transparência no painel branco */
+            border-radius: 16px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3); 
+            overflow: hidden;
+            border-bottom: 6px solid var(--verde-grama);
+        }
+
+        /* Cabeçalho Estilizado - Clima de Placar de Estádio */
+        .header-bolao {
+            background: linear-gradient(135deg, var(--verde-escuro) 0%, var(--verde-grama) 100%);
+            padding: 35px 20px;
+            text-align: center;
+            color: white;
+            border-bottom: 4px solid var(--ouro-copa);
+        }
+
+        .header-bolao h1 { 
+            margin: 0; 
+            font-size: 2.4em; 
+            font-weight: 900; 
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .header-bolao p {
+            margin: 10px 0 0 0;
+            font-weight: 500;
+            color: #d1fae5;
+            font-size: 1.1em;
+            letter-spacing: 0.5px;
+        }
+
+        /* Tabela de Ranking */
+        .tabela-container {
+            padding: 20px 30px 40px 30px;
+        }
+
+        table { 
+            width: 100%; 
+            border-collapse: separate; 
+            border-spacing: 0;
+        }
+
+        th { 
+            padding: 15px; 
+            text-align: left; 
+            color: var(--verde-escuro); 
+            font-weight: 800;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--verde-grama);
+        }
+
+        td { 
+            padding: 18px 15px; 
+            text-align: left; 
+            border-bottom: 1px solid var(--borda);
+            vertical-align: middle;
+        }
+        
+        .pontos-destaque { 
+            font-weight: 900; 
+            font-size: 1.3em; 
+            color: var(--verde-escuro); 
+            background: var(--hover-linha);
+            padding: 4px 12px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        /* Pódio de Campeões */
+        .podio { font-weight: 800; font-size: 1.1em; }
+        .podio-1 { color: #b8860b; } /* Ouro */
+        .podio-2 { color: #71717a; } /* Prata */
+        .podio-3 { color: #b45309; } /* Bronze */
+
+        /* Interação ao passar o mouse */
+        .linha-clicavel { 
+            cursor: pointer; 
+            transition: all 0.2s ease; 
+            user-select: none; 
+            position: relative;
+        }
+        
+        .linha-clicavel:hover { 
+            background-color: var(--hover-linha); 
+        }
+
+        /* Marcador lateral verde no hover */
+        .linha-clicavel:hover td:first-child {
+            box-shadow: inset 4px 0 0 var(--verde-grama);
+        }
+        
+        .seta { 
+            display: inline-block; 
+            margin-left: 8px; 
+            font-size: 0.7em; 
+            color: var(--verde-grama); 
+            transition: transform 0.3s ease; 
+        }
+        .seta.aberta { transform: rotate(180deg); }
+
+        /* Área de Palpites (Accordion) */
+        .linha-detalhes { display: none; background-color: #f8fafc; }
+        .linha-detalhes.mostrar { display: table-row; animation: slideDown 0.3s ease; }
+        
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .conteudo-palpites { 
+            padding: 20px 25px 30px 25px !important; 
+            border-bottom: 3px solid var(--verde-grama) !important; 
+            box-shadow: inset 0 4px 6px -4px rgba(0,0,0,0.1);
+        }
+
+        .palpites-lista { 
+            list-style-type: none; 
+            padding: 0; 
+            margin: 0; 
+            font-size: 0.95em; 
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+        }
+
+        .palpites-lista li { 
+            background: white;
+            padding: 12px 15px; 
+            border-left: 4px solid var(--borda);
+            border-radius: 6px;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            font-weight: 500;
+        }
+        
+        /* Badges de Status - Cores do Futebol */
+        .badge { 
+            padding: 5px 10px; 
+            border-radius: 6px; 
+            font-size: 0.75em; 
+            font-weight: 800; 
+            color: white; 
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .acertou-placar { background-color: var(--ouro-copa); color: #78350f; box-shadow: 0 2px 4px rgba(251, 191, 36, 0.4); } 
+        .acertou-vencedor { background-color: var(--verde-grama); box-shadow: 0 2px 4px rgba(5, 150, 105, 0.3); }
+        .errou { background-color: #ef4444; }
+        .pendente { background-color: #e5e7eb; color: #6b7280; }
+
+        /* Estilização da linha do palpite baseada no status */
+        li:has(.acertou-placar) { border-left-color: var(--ouro-copa); }
+        li:has(.acertou-vencedor) { border-left-color: var(--verde-grama); }
+        li:has(.errou) { border-left-color: #ef4444; }
+
+        /* Ajuste para as bandeiras do Twemoji */
+        img.emoji {
+            height: 1.3em;
+            width: 1.3em;
+            margin: 0 .15em 0 .15em;
+            vertical-align: -0.25em;
+            filter: drop-shadow(0 1px 1px rgba(0,0,0,0.1));
+        }
+
+        /* Responsividade Perfeita para Celular */
+        @media (max-width: 600px) {
+            body { padding: 10px; } 
+            .container { border-radius: 12px; }
+            .header-bolao { padding: 25px 15px; }
+            .header-bolao h1 { font-size: 1.8em; }
+            .header-bolao p { font-size: 1em; }
+            .tabela-container { padding: 10px 10px 20px 10px; }
+            th, td { padding: 12px 8px; font-size: 0.9em; }
+            .pontos-destaque { font-size: 1.1em; padding: 4px 8px; }
+            .conteudo-palpites { padding: 15px 10px !important; }
+            .palpites-lista { grid-template-columns: 1fr; gap: 10px; }
+            
+            .palpites-lista li { 
+                flex-direction: column; 
+                align-items: flex-start; 
+                gap: 10px; 
+            }
+            .badge { align-self: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header-bolao">
+        <h1>⚽ Bolão Alta Cupúla</h1>
+        <p>Fase Mata-Mata | 16-Avos de Final</p>
+    </div>
+    
+    <div class="tabela-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Pos</th>
+                    <th>Participante</th>
+                    <th>Pontos</th>
+                </tr>
+            </thead>
+            <tbody id="ranking-body">
+                </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="dados.js"></script>
+
+<script>
+    const rankingOrdenado = dados.participantes.sort((a, b) => b.pontos - a.pontos);
+    const tbody = document.getElementById('ranking-body');
+
+    function getStatusBadge(status) {
+        switch(status) {
+            case 'acertou-placar': return '<span class="badge acertou-placar">Na Mosca</span>';
+            case 'acertou-vencedor': return '<span class="badge acertou-vencedor">Vencedor</span>';
+            case 'errou': return '<span class="badge errou">Errou</span>';
+            default: return '<span class="badge pendente">Pendente</span>';
+        }
+    }
+
+    function togglePalpites(index) {
+        const linhaDetalhes = document.getElementById(`detalhes-${index}`);
+        const seta = document.getElementById(`seta-${index}`);
+        
+        linhaDetalhes.classList.toggle('mostrar');
+        seta.classList.toggle('aberta');
+    }
+
+    rankingOrdenado.forEach((p, index) => {
+        let classePosicao = index < 3 ? `podio podio-${index + 1}` : '';
+        let iconePosicao = index === 0 ? '🏆' : index === 1 ? '🥈' : index === 2 ? '🥉' : `${index + 1}º`;
+
+        let htmlPalpites = `<ul class="palpites-lista">`;
+        if (p.palpites.length === 0) {
+            htmlPalpites += `<li><em>Aguardando palpites...</em></li>`;
+        } else {
+            p.palpites.forEach(palpite => {
+                htmlPalpites += `<li>
+                                    <span>${palpite.jogo}</span> 
+                                    ${getStatusBadge(palpite.status)}
+                                 </li>`;
+            });
+        }
+        htmlPalpites += `</ul>`;
+
+        tbody.innerHTML += `
+            <tr class="linha-clicavel" onclick="togglePalpites(${index})">
+                <td class="${classePosicao}">${iconePosicao}</td>
+                <td class="${classePosicao}" style="font-weight: 700;">
+                    ${p.nome} <span id="seta-${index}" class="seta">▼</span>
+                </td>
+                <td><span class="pontos-destaque">${p.pontos}</span></td>
+            </tr>
+            <tr id="detalhes-${index}" class="linha-detalhes">
+                <td colspan="3" class="conteudo-palpites">
+                    ${htmlPalpites}
+                </td>
+            </tr>
+        `;
+    });
+</script>
+
+<script src="https://unpkg.com/@twemoji/api@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+
+<script>
+    twemoji.parse(document.body);
+</script>
+
+</body>
+</html>
