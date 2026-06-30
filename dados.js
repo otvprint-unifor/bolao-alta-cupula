@@ -1,28 +1,6 @@
 const dados = {
   "participantes": [
     {
-      "nome": "Otávio",
-      "pontos": 4,
-      "palpites": [
-        { "jogo": "🇿🇦 África do Sul 0 x 2 Canadá 🇨🇦", "status": "vitoria-1pt" },
-        { "jogo": "🇧🇷 Brasil 2 x 0 Japão 🇯🇵", "status": "vitoria-1pt" },
-        { "jogo": "🇩🇪 Alemanha 2 x 0 Paraguai 🇵🇾", "status": "errou" },
-        { "jogo": "🇳🇱 Holanda 2 x 1 Marrocos 🇲🇦", "status": "errou" },
-        { "jogo": "🇨🇮 Costa do Marfim 0 x 2 Noruega 🇳🇴", "status": "vitoria-1pt" },
-        { "jogo": "🇫🇷 França 3 x 1 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 1 x 0 Equador 🇪🇨", "status": "pendente" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2 x 0 RD Congo 🇨🇩", "status": "pendente" },
-        { "jogo": "🇧🇪 Bélgica 2 x 1 Senegal 🇸🇳", "status": "pendente" },
-        { "jogo": "🇺🇸 Estados Unidos 3 x 0 Bósnia 🇧🇦", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha 2 x 1 Áustria 🇦🇹", "status": "pendente" },
-        { "jogo": "🇵🇹 Portugal 2 x 1 Croácia 🇭🇷", "status": "pendente" },
-        { "jogo": "🇨🇭 Suíça 2 x 0 Argélia 🇩🇿", "status": "pendente" },
-        { "jogo": "🇦🇺 Austrália 0 x 1 Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina 3 x 0 Cabo Verde 🇨🇻", "status": "pendente" },
-        { "jogo": "🇨🇴 Colômbia 2 x 1 Gana 🇬🇭", "status": "pendente" }
-      ]
-    },
-    {
       "nome": "Eudes",
       "pontos": 9,
       "palpites": [
