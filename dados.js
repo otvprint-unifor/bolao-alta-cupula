@@ -265,6 +265,24 @@ const dados = {
       ]
     },
     {
+      "nome": "Pedro Jordi",
+      "pontos": 3,
+      "palpites": [
+        { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
+        { "jogo": "🇫🇷 França 3x1 Suécia 🇸🇪", "status": "pendente" },
+        { "jogo": "🇲🇽 México 2x2 Equador 🇪🇨(P)", "status": "pendente" },
+        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 3x0 RD Congo 🇨🇩", "status": "pendente" },
+        { "jogo": "🇧🇪 Bélgica 0x1 Senegal 🇸🇳", "status": "pendente" },
+        { "jogo": "🇺🇸 Estados Unidos 2x0 Bósnia 🇧🇦", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x0 Áustria 🇦🇹", "status": "pendente" },
+        { "jogo": "🇵🇹 Portugal 2x2 Croácia 🇭🇷(P)", "status": "pendente" },
+        { "jogo": "🇨🇭 Suíça 2x1 Argélia 🇩🇿", "status": "pendente" },
+        { "jogo": "🇦🇺 Austrália 0x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 0x0 Cabo Verde 🇨🇻(P)", "status": "pendente" },
+        { "jogo": "🇨🇴 Colômbia 2x1 Gana 🇬🇭", "status": "pendente" }
+      ]
+    },
+    {
       "nome": "Davi Lira",
       "pontos": 5,
       "palpites": [
