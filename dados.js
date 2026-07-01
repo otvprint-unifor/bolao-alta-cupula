@@ -2,7 +2,7 @@ const dados = {
   "participantes": [
     {
       "nome": "Eudes",
-      "pontos": 9,
+      "pontos": 10,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 0x1 Canadá 🇨🇦", "status": "vitoria-3pts" },
         { "jogo": "🇧🇷 Brasil 2x0 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -10,7 +10,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 0x1 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇨🇮 Costa do Marfim 0x2 Noruega 🇳🇴", "status": "vitoria-1pt" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "🇲🇽 México 1x0 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 1x0 Equador 🇪🇨", "status": "vitoria-1pt" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 0x1 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 1x2 Bósnia 🇧🇦", "status": "pendente" },
@@ -32,7 +32,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 0x3 Noruega 🇳🇴", "status": "vitoria-1pt" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "🇲🇽 México 1x2 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 1x2 Equador 🇪🇨", "status": "errou" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2x1 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 2x0 Bósnia 🇧🇦", "status": "pendente" },
@@ -54,7 +54,7 @@ const dados = {
         { "jogo": "(P)🇳🇱 Holanda 1x1 Marrocos 🇲🇦", "status": "empate-2pts" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 4x0 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 1x2 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 1x2 Equador 🇪🇨", "status": "errou" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 3x2 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2x1 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bósnia 🇧🇦", "status": "pendente" },
@@ -76,7 +76,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "(P)🇨🇮 Costa do Marfim 2x2 Noruega 🇳🇴", "status": "errou" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "🇲🇽 México 2x2 Equador 🇪🇨(P)", "status": "pendente" },
+        { "jogo": "🇲🇽 México 2x2 Equador 🇪🇨(P)", "status": "errou" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 1x2 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2x2 Senegal 🇸🇳(P)", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 3x1 Bósnia 🇧🇦", "status": "pendente" },
@@ -90,7 +90,7 @@ const dados = {
     },
     {
       "nome": "Tobias",
-      "pontos": 6,
+      "pontos": 7,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 0x2 Canadá 🇨🇦", "status": "vitoria-1pt" },
         { "jogo": "🇧🇷 Brasil 3x0 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -98,7 +98,7 @@ const dados = {
         { "jogo": "(P)🇳🇱 Holanda 1x1 Marrocos 🇲🇦", "status": "empate-2pts" },
         { "jogo": "🇨🇮 Costa do Marfim 2x3 Noruega 🇳🇴", "status": "vitoria-1pt" },
         { "jogo": "🇫🇷 França 4x1 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 3x1 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 3x1 Equador 🇪🇨", "status": "vitoria-1pt" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 1x2 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 1x0 Bósnia 🇧🇦", "status": "pendente" },
@@ -112,7 +112,7 @@ const dados = {
     },
     {
       "nome": "Leopoldino",
-      "pontos": 8,
+      "pontos": 9,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 0x2 Canadá 🇨🇦", "status": "vitoria-1pt" },
         { "jogo": "🇧🇷 Brasil 3x0 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -120,7 +120,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "🇲🇽 México 2x1 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 2x1 Equador 🇪🇨", "status": "vitoria-1pt" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 3x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 1x1 Senegal 🇸🇳(P)", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 3x0 Bósnia 🇧🇦", "status": "pendente" },
@@ -142,7 +142,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 0x1 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 2x0 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 1x1 Equador 🇪🇨(P)", "status": "pendente" },
+        { "jogo": "🇲🇽 México 1x1 Equador 🇪🇨(P)", "status": "errou" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2x0 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 3x0 Bósnia 🇧🇦", "status": "pendente" },
@@ -156,7 +156,7 @@ const dados = {
     },
     {
       "nome": "Nicholas",
-      "pontos": 6,
+      "pontos": 9,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 1x2 Canadá 🇨🇦", "status": "vitoria-1pt" },
         { "jogo": "🇧🇷 Brasil 2x0 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -164,7 +164,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x0 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 0x2 Noruega 🇳🇴", "status": "vitoria-1pt" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "🇲🇽 México 2x0 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 2x0 Equador 🇪🇨", "status": "vitoria-3pts" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2x0 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 2x0 Bósnia 🇧🇦", "status": "pendente" },
@@ -178,7 +178,7 @@ const dados = {
     },
     {
       "nome": "Thiago Rocha",
-      "pontos": 6,
+      "pontos": 7,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 1x2 Canadá 🇨🇦", "status": "vitoria-1pt" },
         { "jogo": "🇧🇷 Brasil 2x0 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -186,7 +186,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 3x1 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 2x1 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 2x1 Equador 🇪🇨", "status": "vitoria-1pt" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2x1 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 3x1 Bósnia 🇧🇦", "status": "pendente" },
@@ -208,7 +208,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "(P)🇲🇽 México 2x2 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "(P)🇲🇽 México 2x2 Equador 🇪🇨", "status": "errou" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "(P)🇧🇪 Bélgica 1x1 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bósnia 🇧🇦", "status": "pendente" },
@@ -226,7 +226,7 @@ const dados = {
       "palpites": [
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 3x1 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 2x2 Equador 🇪🇨(P)", "status": "pendente" },
+        { "jogo": "🇲🇽 México 2x2 Equador 🇪🇨(P)", "status": "errou" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 3x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 0x1 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 2x0 Bósnia 🇧🇦", "status": "pendente" },
@@ -240,7 +240,7 @@ const dados = {
     },
     {
       "nome": "Otávio",
-      "pontos": 4,
+      "pontos": 5,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 0 x 2 Canadá 🇨🇦", "status": "vitoria-1pt" },
         { "jogo": "🇧🇷 Brasil 2 x 0 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -248,7 +248,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2 x 1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 0 x 2 Noruega 🇳🇴", "status": "vitoria-1pt" },
         { "jogo": "🇫🇷 França 3 x 1 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 1 x 0 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 1 x 0 Equador 🇪🇨", "status": "vitoria-1pt" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2 x 0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2 x 1 Senegal 🇸🇳", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 3 x 0 Bósnia 🇧🇦", "status": "pendente" },
@@ -262,7 +262,7 @@ const dados = {
     },
     {
       "nome": "Paulo Rosa",
-      "pontos": 4,
+      "pontos": 5,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 1x2 Canadá 🇨🇦", "status": "vitoria-1pt" },
         { "jogo": "🇧🇷 Brasil 3x1 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -270,7 +270,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 2x3 Noruega 🇳🇴", "status": "vitoria-1pt" },
         { "jogo": "🇫🇷 França 4x1 Suécia 🇸🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇲🇽 México 3x1 Equador 🇪🇨", "status": "pendente" },
+        { "jogo": "🇲🇽 México 3x1 Equador 🇪🇨", "status": "vitoria-1pt" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "pendente" },
         { "jogo": "🇧🇪 Bélgica 2x2 Senegal 🇸🇳(P)", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 3x1 Bósnia 🇧🇦", "status": "pendente" },
