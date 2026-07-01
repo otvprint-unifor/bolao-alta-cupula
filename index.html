@@ -321,7 +321,6 @@
 <script>
     // --- LÓGICA DO TEMA ---
     const themeToggleBtn = document.getElementById('theme-toggle');
-    // Agora o PADRÃO inicial é 'dark'
     const currentTheme = localStorage.getItem('theme') || 'dark';
 
     document.documentElement.setAttribute('data-theme', currentTheme);
@@ -340,7 +339,22 @@
         }
     });
 
-    const rankingOrdenado = dados.participantes.sort((a, b) => b.pontos - a.pontos);
+    // --- LÓGICA DE ORDENAÇÃO COM DESEMPATE ---
+    // Conta as "cravadas" (status 3pts) para usar no desempate
+    dados.participantes.forEach(p => {
+        p.cravadas = p.palpites.filter(palpite => 
+            palpite.status === 'vitoria-3pts' || palpite.status === 'empate-3pts'
+        ).length;
+    });
+
+    // Ordena: Primeiro por Pontos, depois por Cravadas
+    const rankingOrdenado = dados.participantes.sort((a, b) => {
+        if (b.pontos !== a.pontos) {
+            return b.pontos - a.pontos; 
+        }
+        return b.cravadas - a.cravadas; 
+    });
+
     const tbody = document.getElementById('ranking-body');
 
     function getStatusBadge(status) {
@@ -378,7 +392,6 @@
         let classePosicao = index < 3 ? `podio podio-${index + 1}` : '';
         let iconePosicao = index === 0 ? '🏆' : index === 1 ? '🥈' : index === 2 ? '🥉' : `${index + 1}º`;
         
-        // Emoji da Lanterna inserido de forma direta
         if (isLanterninha) {
             iconePosicao = '<span class="icone-lanterninha">🔦</span>';
         }
