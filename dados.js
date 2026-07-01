@@ -303,6 +303,34 @@ const dados = {
         { "jogo": "🇦🇷 Argentina 3x0 Cabo Verde 🇨🇻", "status": "pendente" },
         { "jogo": "🇨🇴 Colômbia 3x0 Gana 🇬🇭", "status": "pendente" }
       ]
+    },
+    {
+      "nome": "Tiago Nogueira",
+      "pontos": 0,
+      "palpites": [
+        { "jogo": "🇧🇪 Bélgica 2x1 Senegal 🇸🇳", "status": "pendente" },
+        { "jogo": "🇺🇸 Estados Unidos 3x0 Bósnia 🇧🇦", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 1x0 Áustria 🇦🇹", "status": "pendente" },
+        { "jogo": "🇵🇹 Portugal 1x1 Croácia 🇭🇷(P)", "status": "pendente" },
+        { "jogo": "🇨🇭 Suíça 2x1 Argélia 🇩🇿", "status": "pendente" },
+        { "jogo": "🇦🇺 Austrália 0x2 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x2 Cabo Verde 🇨🇻(P)", "status": "pendente" },
+        { "jogo": "🇨🇴 Colômbia 3x1 Gana 🇬🇭", "status": "pendente" }
+      ]
+    },
+    {
+      "nome": "Bruno Oliveira",
+      "pontos": 0,
+      "palpites": [
+        { "jogo": "🇧🇪 Bélgica 0x2 Senegal 🇸🇳", "status": "pendente" },
+        { "jogo": "🇺🇸 Estados Unidos 3x1 Bósnia 🇧🇦", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 4x0 Áustria 🇦🇹", "status": "pendente" },
+        { "jogo": "🇵🇹 Portugal 1x0 Croácia 🇭🇷", "status": "pendente" },
+        { "jogo": "🇨🇭 Suíça 2x1 Argélia 🇩🇿", "status": "pendente" },
+        { "jogo": "🇦🇺 Austrália 0x2 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 4x0 Cabo Verde 🇨🇻", "status": "pendente" },
+        { "jogo": "🇨🇴 Colômbia 3x1 Gana 🇬🇭", "status": "pendente" }
+      ]
     }
   ]
 };
