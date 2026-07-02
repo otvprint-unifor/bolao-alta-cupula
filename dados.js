@@ -200,7 +200,7 @@ const dados = {
     },
     {
       "nome": "Gabriel Pereira",
-      "pontos": 12,
+      "pontos": 13,
       "palpites": [
         { "jogo": "🇿🇦 África do Sul 1x2 Canadá 🇨🇦", "status": "vitoria-1pt" },
         { "jogo": "🇧🇷 Brasil 2x0 Japão 🇯🇵", "status": "vitoria-1pt" },
@@ -208,7 +208,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 2x1 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "(P)🇲🇽 México 2x2 Equador 🇪🇨", "status": "errou" },
+        { "jogo": "(P)🇲🇽 México 2x2 Equador 🇪🇨", "status": "vitoria-1pt" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 RD Congo 🇨🇩", "status": "vitoria-1pt" },
         { "jogo": "(P)🇧🇪 Bélgica 1x1 Senegal 🇸🇳", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bósnia 🇧🇦", "status": "vitoria-1pt" },
@@ -292,7 +292,7 @@ const dados = {
         { "jogo": "🇳🇱 Holanda 1x0 Marrocos 🇲🇦", "status": "errou" },
         { "jogo": "🇨🇮 Costa do Marfim 1x2 Noruega 🇳🇴", "status": "vitoria-3pts" },
         { "jogo": "🇫🇷 França 3x0 Suécia 🇸🇪", "status": "vitoria-3pts" },
-        { "jogo": "🇲🇽 México 0x0 Equador 🇪🇨(P)", "status": "pendente" },
+        { "jogo": "🇲🇽 México 0x0 Equador 🇪🇨(P)", "status": "errou" },
         { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 3x1 RD Congo 🇨🇩", "status": "vitoria-1pt" },
         { "jogo": "🇧🇪 Bélgica 2x0 Senegal 🇸🇳", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 2x0 Bósnia 🇧🇦", "status": "vitoria-3pts" },
