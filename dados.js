@@ -156,7 +156,7 @@ const dados = {
     },
     {
       "nome": "Paulo Rosa",
-      "pontos": 15,
+      "pontos": 16,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 1x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x2 França 🇫🇷", "status": "pendente" },
@@ -184,7 +184,7 @@ const dados = {
     },
     {
       "nome": "Tiago Nogueira",
-      "pontos": 12,
+      "pontos": 15,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 1x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x3 França 🇫🇷", "status": "pendente" },
@@ -198,7 +198,7 @@ const dados = {
     },
     {
       "nome": "Bruno Oliveira",
-      "pontos": 12,
+      "pontos": 15,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x3 França 🇫🇷", "status": "pendente" },
