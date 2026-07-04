@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🏆 Bolão Alta Cúpula</title>
+    <title>🏆 Bolão Alta Cúpula - Histórico</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -267,15 +267,13 @@
 
 <div class="container">
     <div class="header-bolao">
-        <!-- Botão de Tema -->
         <button id="theme-toggle" class="btn-theme" aria-label="Alternar Tema"></button>
 
-        <h1>⚽ Bolão Alta Cúpula</h1>
-        <p>Fase Mata-Mata | Oitavas de Final</p>
+        <h1 style="color: var(--texto-secundario);">⚽ Bolão Alta Cúpula</h1>
+        <p style="color: var(--ouro-copa); font-weight: 900;">🕰️ RESULTADOS: 16-Avos de Final</p>
         
-        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-            <button class="btn-regras" onclick="abrirRegras()">📜 Ver Regras de Pontuação</button>
-            <a href="historico.html" class="btn-regras" style="text-decoration: none; background: rgba(251, 191, 36, 0.2); border-color: var(--ouro-copa); color: var(--ouro-copa);">🕰️ Histórico 16-Avos</a>
+        <div style="display: flex; gap: 10px; justify-content: center;">
+            <a href="index.html" class="btn-regras" style="text-decoration: none; background: var(--verde-escuro);">⬅️ Voltar para as Oitavas</a>
         </div>
     </div>
     
@@ -321,7 +319,7 @@
     </div>
 </div>
 
-<script src="dados.js"></script>
+<script src="dados_16avos.js"></script>
 
 <script>
     // --- LÓGICA DO TEMA ---
@@ -345,12 +343,14 @@
     });
 
     // --- LÓGICA DE ORDENAÇÃO COM DESEMPATE ---
+    // Conta as "cravadas" (status 3pts) para usar no desempate
     dados.participantes.forEach(p => {
         p.cravadas = p.palpites.filter(palpite => 
             palpite.status === 'vitoria-3pts' || palpite.status === 'empate-3pts'
         ).length;
     });
 
+    // Ordena: Primeiro por Pontos, depois por Cravadas
     const rankingOrdenado = dados.participantes.sort((a, b) => {
         if (b.pontos !== a.pontos) {
             return b.pontos - a.pontos; 
@@ -420,8 +420,11 @@
                 <td class="${classePosicao}" style="font-weight: 700;">
                     ${p.nome} <span id="seta-${index}" class="seta">▼</span>
                 </td>
-                <td style="text-align: center; vertical-align: middle;">
+                <td style="text-align: center;">
                     <span class="pontos-destaque">${p.pontos}</span>
+                    <div style="font-size: 0.65em; color: var(--texto-secundario); margin-top: 2px;">
+                        ${p.cravadas} cravadas
+                    </div>
                 </td>
             </tr>
             <tr id="detalhes-${index}" class="linha-detalhes">
