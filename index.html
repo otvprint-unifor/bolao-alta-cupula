@@ -346,9 +346,12 @@
 
     // --- LÓGICA DE ORDENAÇÃO COM DESEMPATE ---
     dados.participantes.forEach(p => {
-        p.cravadas = p.palpites.filter(palpite => 
+        let cravadasAtuais = p.palpites.filter(palpite => 
             palpite.status === 'vitoria-3pts' || palpite.status === 'empate-3pts'
         ).length;
+        
+        // Soma as cravadas da rodada atual com as das rodadas anteriores (se existirem)
+        p.cravadas = cravadasAtuais + (p.cravadas_anteriores || 0);
     });
 
     const rankingOrdenado = dados.participantes.sort((a, b) => {

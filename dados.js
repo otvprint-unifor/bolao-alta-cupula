@@ -43,17 +43,17 @@ const dados = {
       ]
     },
     {
-      "nome": "Ed Junior",
-      "pontos": 11,
+      "nome": "Gabriel Pereira",
+      "pontos": 19,
       "palpites": [
-        { "jogo": "🇨🇦 Canadá x Marrocos 🇲🇦", "status": "pendente" },
-        { "jogo": "🇵🇾 Paraguai x França 🇫🇷", "status": "pendente" },
-        { "jogo": "🇧🇷 Brasil x Noruega 🇳🇴", "status": "pendente" },
-        { "jogo": "🇲🇽 México x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇵🇹 Portugal x Espanha 🇪🇸", "status": "pendente" },
-        { "jogo": "🇺🇸 Estados Unidos x Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça x Colômbia 🇨🇴", "status": "pendente" }
+        { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "pendente" },
+        { "jogo": "🇵🇾 Paraguai 0x2 França 🇫🇷", "status": "pendente" },
+        { "jogo": "🇧🇷 Brasil 2x0 Noruega 🇳🇴", "status": "pendente" },
+        { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "pendente" },
+        { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇨🇭 Suiça 0x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
@@ -66,8 +66,8 @@ const dados = {
         { "jogo": "(P)🇲🇽 México 1x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
         { "jogo": "🇵🇹 Portugal 1x1 Espanha 🇪🇸(P)", "status": "pendente" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça x Colômbia 🇨🇴", "status": "pendente" }
+        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇨🇭 Suiça 2x2 Colômbia 🇨🇴(P)", "status": "pendente" }
       ]
     },
     {
@@ -127,20 +127,6 @@ const dados = {
       ]
     },
     {
-      "nome": "Gabriel Pereira",
-      "pontos": 19,
-      "palpites": [
-        { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "pendente" },
-        { "jogo": "🇵🇾 Paraguai 0x2 França 🇫🇷", "status": "pendente" },
-        { "jogo": "🇧🇷 Brasil 2x0 Noruega 🇳🇴", "status": "pendente" },
-        { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "pendente" },
-        { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça 0x2 Colômbia 🇨🇴", "status": "pendente" }
-      ]
-    },
-    {
       "nome": "Pedro Jordi",
       "pontos": 14,
       "palpites": [
@@ -178,8 +164,8 @@ const dados = {
         { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "pendente" },
         { "jogo": "(P)🇺🇸 Estados Unidos 1x1 Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça x Colômbia 🇨🇴", "status": "pendente" }
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
