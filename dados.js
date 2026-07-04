@@ -15,6 +15,20 @@ const dados = {
       ]
     },
     {
+      "nome": "Tobias",
+      "pontos": 19,
+      "palpites": [
+        { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "pendente" },
+        { "jogo": "🇵🇾 Paraguai 0x3 França 🇫🇷", "status": "pendente" },
+        { "jogo": "🇧🇷 Brasil 2x1 Noruega 🇳🇴", "status": "pendente" },
+        { "jogo": "(P)🇲🇽 México 1x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇵🇹 Portugal 1x1 Espanha 🇪🇸(P)", "status": "pendente" },
+        { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina ex1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇨🇭 Suiça 2x2(P) Colômbia 🇨🇴", "status": "pendente" }
+      ]
+    },
+    {
       "nome": "Gui Paiva",
       "pontos": 25,
       "palpites": [
