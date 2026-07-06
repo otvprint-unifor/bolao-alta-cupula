@@ -24,8 +24,8 @@ const dados = {
         { "jogo": "🇲🇽 México 1x2 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "vitoria-1pt" },
         { "jogo": "🇵🇹 Portugal 3x2 Espanha 🇪🇸", "status": "errou" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça x Colômbia 🇨🇴", "status": "pendente" }
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
@@ -67,7 +67,7 @@ const dados = {
         { "jogo": "🇵🇹 Portugal 1x1 Espanha 🇪🇸(P)", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "pendente" },
         { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça 2x2 Colômbia 🇨🇴(P)", "status": "pendente" }
+        { "jogo": "🇨🇭 Suiça 1x1 Colômbia 🇨🇴(P)", "status": "pendente" }
       ]
     },
     {
@@ -94,8 +94,8 @@ const dados = {
         { "jogo": "🇲🇽 México 1x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x0 Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça x Colômbia 🇨🇴", "status": "pendente" }
+        { "jogo": "🇦🇷 Argentina 0x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇨🇭 Suiça 0x1 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
