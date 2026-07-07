@@ -2,7 +2,7 @@ const dados = {
   "participantes": [
     {
       "nome": "Eudes",
-      "pontos": 20,
+      "pontos": 21,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "(P)🇵🇾 Paraguai 0x0 França 🇫🇷", "status": "errou" },
@@ -10,13 +10,13 @@ const dados = {
         { "jogo": "🇲🇽 México 1x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 2x1 Espanha 🇪🇸", "status": "errou" },
         { "jogo": "🇺🇸 Estados Unidos 0x1 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 0x1 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Gui Paiva",
-      "pontos": 28,
+      "pontos": 29,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 1x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 0x3 França 🇫🇷", "status": "vitoria-1pt" },
@@ -24,13 +24,13 @@ const dados = {
         { "jogo": "🇲🇽 México 1x2 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "vitoria-1pt" },
         { "jogo": "🇵🇹 Portugal 3x2 Espanha 🇪🇸", "status": "errou" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "errou" },
-        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Levi Mateus",
-      "pontos": 20,
+      "pontos": 21,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 0x3 França 🇫🇷", "status": "vitoria-1pt" },
@@ -38,13 +38,13 @@ const dados = {
         { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x3 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x2 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina x Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça x Colômbia 🇨🇴", "status": "pendente" }
+        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "vitoria-1pt" },
+        { "jogo": "🇨🇭 Suiça 0x1 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Gabriel Pereira",
-      "pontos": 22,
+      "pontos": 24,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 0x2 França 🇫🇷", "status": "vitoria-1pt" },
@@ -52,13 +52,13 @@ const dados = {
         { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "errou" },
-        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 0x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Tobias",
-      "pontos": 22,
+      "pontos": 23,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 0x3 França 🇫🇷", "status": "vitoria-1pt" },
@@ -66,13 +66,13 @@ const dados = {
         { "jogo": "(P)🇲🇽 México 1x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x1 Espanha 🇪🇸(P)", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 2x1 Bélgica 🇧🇪", "status": "errou" },
-        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x1 Colômbia 🇨🇴(P)", "status": "pendente" }
       ]
     },
     {
       "nome": "Leopoldino",
-      "pontos": 25,
+      "pontos": 26,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x3 França 🇫🇷", "status": "vitoria-1pt" },
@@ -80,7 +80,7 @@ const dados = {
         { "jogo": "🇲🇽 México 1x2 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "vitoria-1pt" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x2 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
@@ -94,13 +94,13 @@ const dados = {
         { "jogo": "🇲🇽 México 1x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x0 Bélgica 🇧🇪", "status": "errou" },
-        { "jogo": "🇦🇷 Argentina 0x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 0x1 Egito 🇪🇬", "status": "errou" },
         { "jogo": "🇨🇭 Suiça 0x1 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Nicholas",
-      "pontos": 27,
+      "pontos": 28,
      "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 0x3 França 🇫🇷", "status": "vitoria-1pt" },
@@ -108,13 +108,13 @@ const dados = {
         { "jogo": "🇲🇽 México 0x2 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "vitoria-1pt" },
         { "jogo": "🇵🇹 Portugal 0x4 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 0x2 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 0x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Thiago Rocha",
-      "pontos": 19,
+      "pontos": 20,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 1x1 Marrocos 🇲🇦(P)", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x2 França 🇫🇷", "status": "vitoria-1pt" },
@@ -122,13 +122,13 @@ const dados = {
         { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x3 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x1 Bélgica 🇧🇪(P)", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x1 Colômbia 🇨🇴(P)", "status": "pendente" }
       ]
     },
     {
       "nome": "Pedro Jordi",
-      "pontos": 21,
+      "pontos": 22,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x3 Marrocos 🇲🇦", "status": "vitoria-3pts" },
         { "jogo": "🇵🇾 Paraguai 0x2 França 🇫🇷", "status": "vitoria-1pt" },
@@ -136,13 +136,13 @@ const dados = {
         { "jogo": "🇲🇽 México 1x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿(P)", "status": "vitoria-1pt" },
         { "jogo": "🇵🇹 Portugal 2x1 Espanha 🇪🇸", "status": "errou" },
         { "jogo": "🇺🇸 Estados Unidos 1x2 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 2x1 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Otávio",
-      "pontos": 23,
+      "pontos": 24,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 0x2 França 🇫🇷", "status": "vitoria-1pt" },
@@ -150,13 +150,13 @@ const dados = {
         { "jogo": "🇲🇽 México 1x2 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "vitoria-1pt" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x2 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Paulo Rosa",
-      "pontos": 18,
+      "pontos": 19,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 1x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x2 França 🇫🇷", "status": "vitoria-1pt" },
@@ -164,13 +164,13 @@ const dados = {
         { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "(P)🇺🇸 Estados Unidos 1x1 Bélgica 🇧🇪", "status": "errou" },
-        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Davi Lira",
-      "pontos": 27,
+      "pontos": 28,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 0x4 França 🇫🇷", "status": "vitoria-1pt" },
@@ -178,13 +178,13 @@ const dados = {
         { "jogo": "🇲🇽 México 1x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿(P)", "status": "vitoria-1pt" },
         { "jogo": "🇵🇹 Portugal 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x0 Bélgica 🇧🇪", "status": "errou" },
-        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 0x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Tiago Nogueira",
-      "pontos": 18,
+      "pontos": 19,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 1x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x3 França 🇫🇷", "status": "vitoria-1pt" },
@@ -192,13 +192,13 @@ const dados = {
         { "jogo": "🇲🇽 México 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x1 Espanha 🇪🇸(P)", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x2 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
       "nome": "Bruno Oliveira",
-      "pontos": 16,
+      "pontos": 17,
       "palpites": [
         { "jogo": "🇨🇦 Canadá 0x2 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇵🇾 Paraguai 1x3 França 🇫🇷", "status": "vitoria-1pt" },
@@ -206,7 +206,7 @@ const dados = {
         { "jogo": "🇲🇽 México 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "(P)🇵🇹 Portugal 2x2 Espanha 🇪🇸", "status": "errou" },
         { "jogo": "🇺🇸 Estados Unidos 3x1 Bélgica 🇧🇪", "status": "errou" },
-        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 3x1 Egito 🇪🇬", "status": "vitoria-1pt" },
         { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     }
