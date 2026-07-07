@@ -192,8 +192,8 @@ const dados = {
         { "jogo": "🇲🇽 México 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇵🇹 Portugal 1x1 Espanha 🇪🇸(P)", "status": "vitoria-1pt" },
         { "jogo": "🇺🇸 Estados Unidos 1x2 Bélgica 🇧🇪", "status": "vitoria-1pt" },
-        { "jogo": "🇦🇷 Argentina x Egito 🇪🇬", "status": "pendente" },
-        { "jogo": "🇨🇭 Suiça x Colômbia 🇨🇴", "status": "pendente" }
+        { "jogo": "🇦🇷 Argentina 2x0 Egito 🇪🇬", "status": "pendente" },
+        { "jogo": "🇨🇭 Suiça 1x2 Colômbia 🇨🇴", "status": "pendente" }
       ]
     },
     {
