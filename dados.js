@@ -175,9 +175,9 @@ const dados = {
       "cravadas_anteriores": 0,
       "palpites": [
         { "jogo": "🇫🇷 França 3x3 Marrocos 🇲🇦(P)", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha 0x2 Bélgica 🇧🇪", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 1x2 Bélgica 🇧🇪", "status": "pendente" },
         { "jogo": "🇳🇴 Noruega 1x3 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina 2x1 Suiça 🇨🇭", "status": "pendente" }
+        { "jogo": "🇦🇷 Argentina 0x0 Suiça 🇨🇭(P)", "status": "pendente" }
       ]
     }
   ]
