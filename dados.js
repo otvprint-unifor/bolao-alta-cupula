@@ -78,10 +78,10 @@ const dados = {
       "pontos": 0,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França x Marrocos 🇲🇦", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha x Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇳🇴 Noruega x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Suiça 🇨🇭", "status": "pendente" }
+        { "jogo": "🇫🇷 França 1x3 Marrocos 🇲🇦", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x0 Bélgica 🇧🇪", "status": "pendente" },
+        { "jogo": "🇳🇴 Noruega 0x2 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 1x0 Suiça 🇨🇭", "status": "pendente" }
       ]
     },
     {
