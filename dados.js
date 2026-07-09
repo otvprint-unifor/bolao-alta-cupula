@@ -54,10 +54,10 @@ const dados = {
       "pontos": 0,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França x Marrocos 🇲🇦", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha x Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇳🇴 Noruega x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Suiça 🇨🇭", "status": "pendente" }
+        { "jogo": "🇫🇷 França 2x1 Marrocos 🇲🇦", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x1 Bélgica 🇧🇪", "status": "pendente" },
+        { "jogo": "(P)🇳🇴 Noruega 1x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "(P)🇦🇷 Argentina 2x2 Suiça 🇨🇭", "status": "pendente" }
       ]
     },
     {
@@ -138,10 +138,10 @@ const dados = {
       "pontos": 0,
       "cravadas_anteriores": 0,
       "palpites": [
-        { "jogo": "🇫🇷 França x Marrocos 🇲🇦", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha x Bélgica 🇧🇪", "status": "pendente" },
-        { "jogo": "🇳🇴 Noruega x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇦🇷 Argentina x Suiça 🇨🇭", "status": "pendente" }
+        { "jogo": "🇫🇷 França 2x1 Marrocos 🇲🇦", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 1x0 Bélgica 🇧🇪", "status": "pendente" },
+        { "jogo": "🇳🇴 Noruega 2x2 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿(P)", "status": "pendente" },
+        { "jogo": "🇦🇷 Argentina 2x1 Suiça 🇨🇭", "status": "pendente" }
       ]
     },
     {
