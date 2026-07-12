@@ -111,12 +111,12 @@ const dados = {
     {
       "nome": "Pedro Jordi",
       "campeao": "A DEFINIR",
-      "pontos": 4,
+      "pontos": 5,
       "cravadas_anteriores": 3,
       "palpites": [
         { "jogo": "🇫🇷 França 2x1 Marrocos 🇲🇦", "status": "vitoria-1pt" },
         { "jogo": "🇪🇸 Espanha 2x1 Bélgica 🇧🇪", "status": "vitoria-3pts" },
-        { "jogo": "🇳🇴 Noruega 1x3 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
+        { "jogo": "🇳🇴 Noruega 1x3 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "vitoria-1pt" },
         { "jogo": "🇦🇷 Argentina 1x0 Suiça 🇨🇭", "status": "pendente" }
       ]
     },
