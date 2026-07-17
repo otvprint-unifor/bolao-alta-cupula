@@ -6,8 +6,8 @@ const dados = {
       "pontos": 9,
       "cravadas_anteriores": 3,
       "palpites": [
-        { "jogo": "🇫🇷 França 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x3 Argentina 🇦🇷", "status": "vitoria-1pt" }
+        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -16,8 +16,8 @@ const dados = {
       "pontos": 8,
       "cravadas_anteriores": 6,
       "palpites": [
-        { "jogo": "🇫🇷 França 2x1 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x1 Argentina 🇦🇷", "status": "errou" }
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -26,8 +26,8 @@ const dados = {
       "pontos": 5,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França 4x3 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x2 Argentina 🇦🇷(P)", "status": "vitoria-1pt" }
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 3x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -35,9 +35,9 @@ const dados = {
       "campeao": "A DEFINIR",
       "pontos": 5,
       "cravadas_anteriores": 3,
-      "palpites": [
-        { "jogo": "🇫🇷 França 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x1 Argentina 🇦🇷", "status": "errou" }
+     "palpites": [
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -46,8 +46,8 @@ const dados = {
       "pontos": 7,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França 1x1 Espanha 🇪🇸(P)", "status": "vitoria-1pt" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x4 Argentina 🇦🇷", "status": "vitoria-1pt" }
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -56,8 +56,8 @@ const dados = {
       "pontos": 5,
       "cravadas_anteriores": 4,
       "palpites": [
-        { "jogo": "🇫🇷 França 2x1 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x3 Argentina 🇦🇷", "status": "vitoria-1pt" }
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x3 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -66,8 +66,8 @@ const dados = {
       "pontos": 3,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França 0x0 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 0x0 Argentina 🇦🇷", "status": "errou" }
+        { "jogo": "🇫🇷 França x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha x Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -76,8 +76,8 @@ const dados = {
       "pontos": 6,
       "cravadas_anteriores": 4,
       "palpites": [
-        { "jogo": "🇫🇷 França 4x0 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 3x2 Argentina 🇦🇷", "status": "errou" }
+        { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 1x2 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -86,8 +86,8 @@ const dados = {
       "pontos": 2,
       "cravadas_anteriores": 1,
       "palpites": [
-        { "jogo": "🇫🇷 França 2x2 Espanha 🇪🇸(P)", "status": "vitoria-1pt" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 3x1 Argentina 🇦🇷", "status": "errou" }
+        { "jogo": "🇫🇷 França x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha x Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -96,8 +96,8 @@ const dados = {
       "pontos": 6,
       "cravadas_anteriores": 3,
       "palpites": [
-        { "jogo": "🇫🇷 França 3x2 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x1 Argentina 🇦🇷", "status": "errou" }
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -106,8 +106,8 @@ const dados = {
       "pontos": 10,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 1x2 Argentina 🇦🇷", "status": "vitoria-3pts" }
+        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 1x1 Argentina 🇦🇷(P)", "status": "pendente" }
       ]
     },
     {
@@ -115,9 +115,9 @@ const dados = {
       "campeao": "A DEFINIR",
       "pontos": 5,
       "cravadas_anteriores": 0,
-      "palpites": [
-        { "jogo": "🇫🇷 França 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x1 Argentina 🇦🇷", "status": "errou" }
+     "palpites": [
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -125,9 +125,9 @@ const dados = {
       "campeao": "A DEFINIR",
       "pontos": 9,
       "cravadas_anteriores": 5,
-      "palpites": [
-        { "jogo": "🇫🇷 França 2x1 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 1x2 Argentina 🇦🇷", "status": "vitoria-3pts" }
+     "palpites": [
+        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 0x3 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -135,9 +135,9 @@ const dados = {
       "campeao": "A DEFINIR",
       "pontos": 4,
       "cravadas_anteriores": 0,
-      "palpites": [
-        { "jogo": "(P)🇫🇷 França 2x2 Espanha 🇪🇸", "status": "errou" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 2x0 Argentina 🇦🇷", "status": "errou" }
+     "palpites": [
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
     {
@@ -146,8 +146,8 @@ const dados = {
       "pontos": 2,
       "cravadas_anteriores": 0,
       "palpites": [
-        { "jogo": "🇫🇷 França 1x2 Espanha 🇪🇸", "status": "vitoria-1pt" },
-        { "jogo": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra 5x4 Argentina 🇦🇷", "status": "errou" }
+        { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇪🇸 Espanha 1x0 Argentina 🇦🇷", "status": "pendente" }
       ]
     }
   ]
