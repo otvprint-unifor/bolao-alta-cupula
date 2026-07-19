@@ -6,7 +6,7 @@ const dados = {
       "pontos": 9,
       "cravadas_anteriores": 3,
       "palpites": [
-        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -16,7 +16,7 @@ const dados = {
       "pontos": 8,
       "cravadas_anteriores": 6,
       "palpites": [
-        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -26,7 +26,7 @@ const dados = {
       "pontos": 5,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 3x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -36,7 +36,7 @@ const dados = {
       "pontos": 5,
       "cravadas_anteriores": 3,
      "palpites": [
-        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -46,7 +46,7 @@ const dados = {
       "pontos": 7,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -56,7 +56,7 @@ const dados = {
       "pontos": 5,
       "cravadas_anteriores": 4,
       "palpites": [
-        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 2x3 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -66,8 +66,8 @@ const dados = {
       "pontos": 3,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha x Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇫🇷 França x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
+        { "jogo": "🇪🇸 Espanha x Argentina 🇦🇷", "status": "errou" }
       ]
     },
     {
@@ -76,7 +76,7 @@ const dados = {
       "pontos": 6,
       "cravadas_anteriores": 4,
       "palpites": [
-        { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 1x2 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -86,8 +86,8 @@ const dados = {
       "pontos": 2,
       "cravadas_anteriores": 1,
       "palpites": [
-        { "jogo": "🇫🇷 França x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
-        { "jogo": "🇪🇸 Espanha x Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇫🇷 França x Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
+        { "jogo": "🇪🇸 Espanha x Argentina 🇦🇷", "status": "errou" }
       ]
     },
     {
@@ -96,7 +96,7 @@ const dados = {
       "pontos": 6,
       "cravadas_anteriores": 3,
       "palpites": [
-        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -106,7 +106,7 @@ const dados = {
       "pontos": 10,
       "cravadas_anteriores": 2,
       "palpites": [
-        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 1x1 Argentina 🇦🇷(P)", "status": "pendente" }
       ]
     },
@@ -116,7 +116,7 @@ const dados = {
       "pontos": 5,
       "cravadas_anteriores": 0,
      "palpites": [
-        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -126,7 +126,7 @@ const dados = {
       "pontos": 9,
       "cravadas_anteriores": 5,
      "palpites": [
-        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 0x3 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -136,7 +136,7 @@ const dados = {
       "pontos": 4,
       "cravadas_anteriores": 0,
      "palpites": [
-        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
       ]
     },
@@ -146,7 +146,7 @@ const dados = {
       "pontos": 2,
       "cravadas_anteriores": 0,
       "palpites": [
-        { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "pendente" },
+        { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
         { "jogo": "🇪🇸 Espanha 1x0 Argentina 🇦🇷", "status": "pendente" }
       ]
     }
