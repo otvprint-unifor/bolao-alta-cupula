@@ -3,51 +3,51 @@ const dados = {
     {
       "nome": "Eudes",
       "campeao": "A DEFINIR",
-      "pontos": 9,
+      "pontos": 10,
       "cravadas_anteriores": 3,
       "palpites": [
         { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
       "nome": "Gui Paiva",
       "campeao": "A DEFINIR",
-      "pontos": 8,
+      "pontos": 9,
       "cravadas_anteriores": 6,
       "palpites": [
         { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
       "nome": "Levi Mateus",
       "campeao": "A DEFINIR",
-      "pontos": 5,
+      "pontos": 6,
       "cravadas_anteriores": 2,
       "palpites": [
         { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 3x1 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 3x1 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
       "nome": "Gabriel Pereira",
       "campeao": "A DEFINIR",
-      "pontos": 5,
+      "pontos": 6,
       "cravadas_anteriores": 3,
      "palpites": [
         { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
       "nome": "Tobias",
       "campeao": "A DEFINIR",
-      "pontos": 7,
+      "pontos": 8,
       "cravadas_anteriores": 2,
       "palpites": [
         { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
@@ -57,7 +57,7 @@ const dados = {
       "cravadas_anteriores": 4,
       "palpites": [
         { "jogo": "🇫🇷 França 3x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 2x3 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 2x3 Argentina 🇦🇷", "status": "errou" }
       ]
     },
     {
@@ -77,7 +77,7 @@ const dados = {
       "cravadas_anteriores": 4,
       "palpites": [
         { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 1x2 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 1x2 Argentina 🇦🇷", "status": "errou" }
       ]
     },
     {
@@ -93,11 +93,11 @@ const dados = {
     {
       "nome": "Pedro Jordi",
       "campeao": "A DEFINIR",
-      "pontos": 6,
+      "pontos": 7,
       "cravadas_anteriores": 3,
       "palpites": [
         { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
@@ -107,17 +107,17 @@ const dados = {
       "cravadas_anteriores": 2,
       "palpites": [
         { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 1x1 Argentina 🇦🇷(P)", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 1x1 Argentina 🇦🇷(P)", "status": "errou" }
       ]
     },
     {
       "nome": "Paulo Rosa",
       "campeao": "A DEFINIR",
-      "pontos": 5,
+      "pontos": 6,
       "cravadas_anteriores": 0,
      "palpites": [
         { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 3x2 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
@@ -127,7 +127,7 @@ const dados = {
       "cravadas_anteriores": 5,
      "palpites": [
         { "jogo": "🇫🇷 França 2x1 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 0x3 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 0x3 Argentina 🇦🇷", "status": "errou" }
       ]
     },
     {
@@ -137,17 +137,17 @@ const dados = {
       "cravadas_anteriores": 0,
      "palpites": [
         { "jogo": "🇫🇷 França 2x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 2x1 Argentina 🇦🇷", "status": "vitoria-1pt" }
       ]
     },
     {
       "nome": "Bruno Oliveira",
       "campeao": "🇫🇷 França 🇫",
-      "pontos": 2,
+      "pontos": 7,
       "cravadas_anteriores": 0,
       "palpites": [
         { "jogo": "🇫🇷 França 3x0 Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿", "status": "errou" },
-        { "jogo": "🇪🇸 Espanha 1x0 Argentina 🇦🇷", "status": "pendente" }
+        { "jogo": "🇪🇸 Espanha 1x0 Argentina 🇦🇷", "status": "vitoria-3pts" }
       ]
     }
   ]
